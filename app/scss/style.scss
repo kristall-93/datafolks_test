@@ -1,0 +1,105 @@
+@import "_vars";
+@import "_global";
+@import "_fonts";
+
+// start page
+// start header
+
+.header {
+    padding-top: 65px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.header__title {
+    font-family: "DINPro", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #344258;
+    margin-bottom: 50px;
+}
+
+.header__text {
+    font-family: "MyriadPro-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #08172d;
+    margin-bottom: 25px;
+}
+
+// end header
+
+// start projects
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.container.container__projects {
+    max-width: 1750px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.projects__item {
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    img {
+        max-width: 550px;
+        width: 100%;
+    }
+}
+.projects__shadow{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    z-index: 2;
+}
+
+.projects__item-title {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.projects__load-more{
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
+    border: 3px solid #00264c;
+    font-family: 'DINPro-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #344258;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    &:hover{
+        // opacity: .8;
+        background: #dce3f1;
+    }
+}
+
+
+// end projects
+
+
+
+// end page
+
+@import "_media";
